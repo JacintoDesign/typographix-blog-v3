@@ -11,7 +11,7 @@ article {
     margin: auto 20px;
 }
 
-img {
+article img {
     width: 500px;
     height: 700px; 
     object-fit: cover;
@@ -27,7 +27,7 @@ p {
     color: #555;
 }
 
-/* Variations */
+/* Image Variations */
 .centered-image-article img {
     width: 100%;
     max-height: 45vh;
