@@ -2,7 +2,7 @@
 footer {
   @include flex-center;
   flex-direction: column;
-  color: rgb(51, 51, 51);
+  color: var(--secondary-font-color);
   padding: 20px 0;
   font-size: 1.2rem;
 
@@ -15,11 +15,11 @@ footer {
 
     a {
       margin: 0 10px;
-      color: $secondary-color;
+      color: var(--secondary-font-color);
       font-size: 1.5rem;
 
       &:hover {
-        color: lighten($secondary-color, 30%);
+        filter: brightness(0.9);
       }
     }
   }

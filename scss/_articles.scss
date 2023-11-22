@@ -4,13 +4,13 @@
 
   h1 {
     font-size: 2.5rem;
-    color: $secondary-font-color;
+    color: var(--secondary-font-color);
     margin: 15px 0;
   }
 
   p {
     font-size: 1.2rem;
-    color: $primary-font-color;
+    color: var(--primary-font-color);
     margin-bottom: 20px;
   }
 }
@@ -26,23 +26,23 @@
 
   h2 {
     font-size: 1.8rem;
-    color: $secondary-font-color;
+    color: var(--secondary-font-color);
     margin: 15px 0;
   }
 
   p {
     font-size: 1rem;
-    color: $primary-font-color;
+    color: var(--primary-font-color);
   }
 }
 
 a {
   text-decoration: none;
-  color: $primary-color;
+  color: var(--primary-color);
   transition: color 0.3s;
 
   &:hover {
-    color: darken($primary-color, 20%);
+    filter: brightness(0.9);
   }
 }
 
@@ -66,17 +66,17 @@ article {
 
   h1 {
     font-size: 2.5rem;
-    color: $secondary-font-color;
+    color: var(--secondary-font-color);
     margin: 20px 0;
   }
 
   h2 {
-    color: $secondary-font-color;
+    color: var(--secondary-font-color);
   }
 
   p {
     font-size: 1.2rem;
-    color: $primary-font-color;
+    color: var(--primary-font-color);
   }
 }
 
